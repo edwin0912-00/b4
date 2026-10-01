@@ -1,0 +1,134 @@
+# SPDX-License-Identifier: MPL-2.0
+name: macOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test-package:
+    if: github.repository == 'edwin0912-00/b4'
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      QT_VERSION: "6.12.0"
+    steps:
+      - name: Check out reviewed source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Select the verified Xcode image
+        shell: bash
+        run: |
+          sudo xcode-select --switch /Applications/Xcode_26.2.app/Contents/Developer
+          test "$(uname -m)" = arm64
+          xcodebuild -version
+          xcrun --sdk macosx --show-sdk-version
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install the pinned Qt SDK candidate
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check aqtinstall==3.3.0
+          aqt install-qt mac desktop "$QT_VERSION" clang_64 --outputdir "$RUNNER_TEMP/Qt"
+          echo "QTDIR=$RUNNER_TEMP/Qt/$QT_VERSION/macos" >> "$GITHUB_ENV"
+
+      - name: Configure, build, and run all tests
+        shell: bash
+        run: |
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_PREFIX_PATH="$RUNNER_TEMP/Qt/$QT_VERSION/macos" \
+            -DCMAKE_OSX_ARCHITECTURES=arm64 \
+            -DCMAKE_OSX_DEPLOYMENT_TARGET=26.0
+          cmake --build build --parallel 3
+          ctest --test-dir build --output-on-failure
+          python3 -B tests/package_macos_checks.py
+
+      - name: Deploy Qt into the fresh app bundle
+        shell: bash
+        run: |
+          "$QTDIR/bin/macdeployqt" "build/Before Effects.app" -always-overwrite
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          app = Path("build/Before Effects.app/Contents")
+          # This alpha uses Fusion widgets and PNG; Cocoa is its only required Qt plugin.
+          for relative in ("PlugIns/styles", "PlugIns/iconengines", "PlugIns/imageformats", "Frameworks/QtSvg.framework"):
+              path = app / relative
+              if path.exists():
+                  shutil.rmtree(path)
+          (app / "Resources/qt.conf").write_text("[Paths]\nPlugins=PlugIns\n")
+          PY
+          mkdir -p "build/Before Effects.app/Contents/Resources/Third-party/Notices"
+          cp LICENSE "build/Before Effects.app/Contents/Resources/LICENSE"
+          cp THIRD-PARTY-NOTICES.md "build/Before Effects.app/Contents/Resources/Third-party/"
+          cp -R docs/third-party/notices/. "build/Before Effects.app/Contents/Resources/Third-party/Notices/"
+          python3 -B tests/bundle_audit_checks.py
+          python scripts/audit_bundle.py "build/Before Effects.app" "$RUNNER_TEMP/bundle-audit.json"
+          codesign --force --deep --sign - --timestamp=none "build/Before Effects.app"
+          codesign --verify --deep --strict "build/Before Effects.app"
+
+      - name: Record clean source and final signed executable provenance
+        shell: bash
+        run: |
+          python scripts/package_macos.py --record-build \
+            --app "build/Before Effects.app" \
+            --build-dir build \
+            --qt-root "$QTDIR" \
+            --qt-version "$QT_VERSION" \
+            --output "$RUNNER_TEMP/build-provenance.json"
+
+      - name: Smoke the packaged app through Cocoa
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/author-proof"
+          python - "$RUNNER_TEMP" <<'PY'
+          import os
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          temp = Path(sys.argv[1])
+          app = Path("build/Before Effects.app/Contents/MacOS/Before Effects")
+          screenshot = temp / "before-effects-smoke.png"
+          env = dict(os.environ, QT_QPA_PLATFORM="cocoa")
+          subprocess.run(
+              [str(app), "--author-proof", str(temp / "author-proof"), "--screenshot", str(screenshot), "--quit-after-screenshot"],
+              env=env,
+              check=True,
+              timeout=90,
+          )
+          if not screenshot.is_file() or screenshot.stat().st_size == 0:
+              raise SystemExit("Cocoa smoke did not produce a screenshot")
+          PY
+
+      - name: Assemble the release candidate from this source commit
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: bash
+        run: |
+          python scripts/package_macos.py \
+            --app "build/Before Effects.app" \
+            --output "build/release-candidate" \
+            --source-commit "$GITHUB_SHA" \
+            --release-tag "$GITHUB_REF_NAME" \
+            --build-provenance "$RUNNER_TEMP/build-provenance.json" \
+            --runtime-manifest docs/third-party/public-runtime.json \
+            --notices-dir docs/third-party/notices \
+            --project-license LICENSE \
+            --examples-dir fixtures
+
+      - name: Save the candidate for root review
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: b4-${{ github.ref_name }}-macos-arm64-candidate
+          path: build/release-candidate/
+          if-no-files-found: error
+          retention-days: 14

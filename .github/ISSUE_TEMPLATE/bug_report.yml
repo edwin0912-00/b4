@@ -1,0 +1,52 @@
+# SPDX-License-Identifier: MPL-2.0
+name: Bug report
+description: Report a reproducible problem in the B4 alpha.
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Please report only issues in current alpha behavior. Do not attach private projects,
+        customer media, credentials, or files you do not have permission to share. For a
+        security vulnerability, follow SECURITY.md instead of opening a public issue.
+  - type: input
+    id: version
+    attributes:
+      label: B4 version
+      description: Include the alpha tag or commit you are using.
+      placeholder: v0.7.0-alpha.1
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac architecture
+      placeholder: macOS 26.0, Apple Silicon
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal synthetic project when a project file is required.
+      placeholder: 1. Open ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: Remove account names, private paths, tokens, and media before posting.
+    validations:
+      required: false

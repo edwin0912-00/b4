@@ -1,0 +1,671 @@
+{
+    "assets": [
+        {
+            "assumedSrgb": false,
+            "height": 560,
+            "id": "3",
+            "path": "original-image.png",
+            "sha256": "24b350aaeead0e656de1e33d4271f969eef6fc7454dbfa66564946355d8a5e1c",
+            "width": 560
+        }
+    ],
+    "compositions": [
+        {
+            "duration": [
+                "12",
+                "1"
+            ],
+            "fps": [
+                "30",
+                "1"
+            ],
+            "height": 1080,
+            "id": "1",
+            "layers": [
+                {
+                    "channels": [
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        }
+                    ],
+                    "color": "#ffffffff",
+                    "font": {
+                        "alignment": 0,
+                        "family": "Noto Sans",
+                        "lineSpacing": 1.15,
+                        "size": 96,
+                        "style": "Regular"
+                    },
+                    "height": 1080,
+                    "id": "8",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "precomp",
+                    "locked": false,
+                    "mask": null,
+                    "name": "Precomp 7",
+                    "out": [
+                        "12",
+                        "1"
+                    ],
+                    "parent": null,
+                    "source": "7",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "text": "Title",
+                    "visible": true,
+                    "width": 1920
+                },
+                {
+                    "channels": [
+                        {
+                            "base": 280,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 280,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 680,
+                            "keys": [
+                                {
+                                    "in": [
+                                        0,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        4,
+                                        0
+                                    ],
+                                    "time": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "value": 1240
+                                },
+                                {
+                                    "in": [
+                                        -4,
+                                        0
+                                    ],
+                                    "interpolation": "linear",
+                                    "out": [
+                                        0,
+                                        0
+                                    ],
+                                    "time": [
+                                        "12",
+                                        "1"
+                                    ],
+                                    "value": 1370
+                                }
+                            ]
+                        },
+                        {
+                            "base": 550,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                                {
+                                    "in": [
+                                        0,
+                                        0
+                                    ],
+                                    "interpolation": "linear",
+                                    "out": [
+                                        0,
+                                        0
+                                    ],
+                                    "time": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "value": -12
+                                },
+                                {
+                                    "in": [
+                                        0,
+                                        0
+                                    ],
+                                    "interpolation": "linear",
+                                    "out": [
+                                        0,
+                                        0
+                                    ],
+                                    "time": [
+                                        "12",
+                                        "1"
+                                    ],
+                                    "value": 35
+                                }
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        }
+                    ],
+                    "color": "#ffffffff",
+                    "font": {
+                        "alignment": 0,
+                        "family": "Noto Sans",
+                        "lineSpacing": 1.15,
+                        "size": 96,
+                        "style": "Regular"
+                    },
+                    "height": 560,
+                    "id": "4",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "image",
+                    "locked": false,
+                    "mask": {
+                        "height": 560,
+                        "inverted": false,
+                        "mode": "add",
+                        "shape": "rectangle",
+                        "width": 560,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "name": "Original orbit",
+                    "out": [
+                        "12",
+                        "1"
+                    ],
+                    "parent": null,
+                    "source": "3",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "text": "Title",
+                    "visible": true,
+                    "width": 560
+                },
+                {
+                    "channels": [
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        }
+                    ],
+                    "color": "#ff10232e",
+                    "font": {
+                        "alignment": 0,
+                        "family": "Noto Sans",
+                        "lineSpacing": 1.15,
+                        "size": 96,
+                        "style": "Regular"
+                    },
+                    "height": 1080,
+                    "id": "2",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "solid",
+                    "locked": false,
+                    "mask": null,
+                    "name": "Midnight background",
+                    "out": [
+                        "12",
+                        "1"
+                    ],
+                    "parent": null,
+                    "source": "0",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "text": "Title",
+                    "visible": true,
+                    "width": 1920
+                }
+            ],
+            "name": "Composition",
+            "width": 1920
+        },
+        {
+            "duration": [
+                "12",
+                "1"
+            ],
+            "fps": [
+                "30",
+                "1"
+            ],
+            "height": 1080,
+            "id": "7",
+            "layers": [
+                {
+                    "channels": [
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                                {
+                                    "in": [
+                                        0,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        2,
+                                        0
+                                    ],
+                                    "time": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "value": 0
+                                },
+                                {
+                                    "in": [
+                                        -2,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        2,
+                                        0
+                                    ],
+                                    "time": [
+                                        "6",
+                                        "1"
+                                    ],
+                                    "value": -12
+                                },
+                                {
+                                    "in": [
+                                        -2,
+                                        0
+                                    ],
+                                    "interpolation": "linear",
+                                    "out": [
+                                        0,
+                                        0
+                                    ],
+                                    "time": [
+                                        "12",
+                                        "1"
+                                    ],
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        }
+                    ],
+                    "color": "#ffffffff",
+                    "font": {
+                        "alignment": 0,
+                        "family": "Noto Sans",
+                        "lineSpacing": 1.15,
+                        "size": 96,
+                        "style": "Regular"
+                    },
+                    "height": 100,
+                    "id": "6",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "null",
+                    "locked": false,
+                    "mask": null,
+                    "name": "Title parent",
+                    "out": [
+                        "12",
+                        "1"
+                    ],
+                    "parent": null,
+                    "source": "0",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "text": "Title",
+                    "visible": true,
+                    "width": 100
+                },
+                {
+                    "channels": [
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 150,
+                            "keys": [
+                                {
+                                    "in": [
+                                        0,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        0.6666666666666666,
+                                        0
+                                    ],
+                                    "time": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "value": 100
+                                },
+                                {
+                                    "in": [
+                                        -0.6666666666666666,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        2.6666666666666665,
+                                        0
+                                    ],
+                                    "time": [
+                                        "2",
+                                        "1"
+                                    ],
+                                    "value": 180
+                                },
+                                {
+                                    "in": [
+                                        -2.6666666666666665,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        0.6666666666666666,
+                                        0
+                                    ],
+                                    "time": [
+                                        "10",
+                                        "1"
+                                    ],
+                                    "value": 180
+                                },
+                                {
+                                    "in": [
+                                        -0.6666666666666666,
+                                        0
+                                    ],
+                                    "interpolation": "linear",
+                                    "out": [
+                                        0,
+                                        0
+                                    ],
+                                    "time": [
+                                        "12",
+                                        "1"
+                                    ],
+                                    "value": 210
+                                }
+                            ]
+                        },
+                        {
+                            "base": 335,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 0,
+                            "keys": [
+                            ]
+                        },
+                        {
+                            "base": 1,
+                            "keys": [
+                                {
+                                    "in": [
+                                        0,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        0.3333333333333333,
+                                        0
+                                    ],
+                                    "time": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "value": 0
+                                },
+                                {
+                                    "in": [
+                                        -0.3333333333333333,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        3,
+                                        0
+                                    ],
+                                    "time": [
+                                        "1",
+                                        "1"
+                                    ],
+                                    "value": 1
+                                },
+                                {
+                                    "in": [
+                                        -3,
+                                        0
+                                    ],
+                                    "interpolation": "cubic",
+                                    "out": [
+                                        0.6666666666666666,
+                                        0
+                                    ],
+                                    "time": [
+                                        "10",
+                                        "1"
+                                    ],
+                                    "value": 1
+                                },
+                                {
+                                    "in": [
+                                        -0.6666666666666666,
+                                        0
+                                    ],
+                                    "interpolation": "linear",
+                                    "out": [
+                                        0,
+                                        0
+                                    ],
+                                    "time": [
+                                        "12",
+                                        "1"
+                                    ],
+                                    "value": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "color": "#ffecf1e7",
+                    "font": {
+                        "alignment": 0,
+                        "family": "Noto Sans",
+                        "lineSpacing": 1.08,
+                        "size": 138,
+                        "style": "Regular"
+                    },
+                    "height": 420,
+                    "id": "5",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "text",
+                    "locked": false,
+                    "mask": null,
+                    "name": "Motion / Рух",
+                    "out": [
+                        "12",
+                        "1"
+                    ],
+                    "parent": "6",
+                    "source": "0",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "text": "Motion\nРух",
+                    "visible": true,
+                    "width": 900
+                }
+            ],
+            "name": "Precomp 7",
+            "width": 1920
+        }
+    ],
+    "nextId": "9",
+    "schemaVersion": 1
+}

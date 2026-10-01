@@ -1,0 +1,1530 @@
+{
+  "assets": [
+    {
+      "assumedSrgb": false,
+      "height": 560,
+      "id": "3",
+      "path": "original-image.png",
+      "sha256": "24b350aaeead0e656de1e33d4271f969eef6fc7454dbfa66564946355d8a5e1c",
+      "width": 560
+    }
+  ],
+  "compositions": [
+    {
+      "duration": [
+        "8",
+        "1"
+      ],
+      "fps": [
+        "30",
+        "1"
+      ],
+      "height": 1080,
+      "id": "1",
+      "layers": [
+        {
+          "effects": [],
+          "height": 1080,
+          "id": "8",
+          "in": [
+            "0",
+            "1"
+          ],
+          "kind": "precomp",
+          "locked": false,
+          "name": "Precomp 7",
+          "out": [
+            "12",
+            "1"
+          ],
+          "parameters": [
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.enabled",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.inverted",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.mode",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.shape",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 100,
+                  "keys": []
+                },
+                {
+                  "base": 100,
+                  "keys": []
+                }
+              ],
+              "id": "mask.size",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "source.color",
+              "text": "",
+              "type": "color"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "text.alignment",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [],
+              "id": "text.family",
+              "text": "Noto Sans",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 1.15,
+                  "keys": []
+                }
+              ],
+              "id": "text.leading",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 96,
+                  "keys": []
+                }
+              ],
+              "id": "text.size",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [],
+              "id": "text.source",
+              "text": "Title",
+              "type": "text"
+            },
+            {
+              "components": [],
+              "id": "text.style",
+              "text": "Regular",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.anchor",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.opacity",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.rotation",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.scale",
+              "text": "",
+              "type": "vector"
+            }
+          ],
+          "parent": null,
+          "source": "7",
+          "start": [
+            "0",
+            "1"
+          ],
+          "visible": true,
+          "width": 1920
+        },
+        {
+          "effects": [],
+          "height": 560,
+          "id": "4",
+          "in": [
+            "0",
+            "1"
+          ],
+          "kind": "image",
+          "locked": false,
+          "name": "Original orbit",
+          "out": [
+            "12",
+            "1"
+          ],
+          "parameters": [
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "mask.enabled",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.inverted",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.mode",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.shape",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 560,
+                  "keys": []
+                },
+                {
+                  "base": 560,
+                  "keys": []
+                }
+              ],
+              "id": "mask.size",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "source.color",
+              "text": "",
+              "type": "color"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "text.alignment",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [],
+              "id": "text.family",
+              "text": "Noto Sans",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 1.15,
+                  "keys": []
+                }
+              ],
+              "id": "text.leading",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 96,
+                  "keys": []
+                }
+              ],
+              "id": "text.size",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [],
+              "id": "text.source",
+              "text": "Title",
+              "type": "text"
+            },
+            {
+              "components": [],
+              "id": "text.style",
+              "text": "Regular",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 280,
+                  "keys": []
+                },
+                {
+                  "base": 280,
+                  "keys": []
+                }
+              ],
+              "id": "transform.anchor",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.opacity",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 680,
+                  "keys": [
+                    {
+                      "in": [
+                        0,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        0.6666666666666667,
+                        0
+                      ],
+                      "time": [
+                        "0",
+                        "1"
+                      ],
+                      "value": 450
+                    },
+                    {
+                      "in": [
+                        -1,
+                        -75
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        1.2,
+                        -120
+                      ],
+                      "time": [
+                        "2",
+                        "1"
+                      ],
+                      "value": 1050
+                    },
+                    {
+                      "in": [
+                        -0.6666666666666667,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        0.6666666666666667,
+                        0
+                      ],
+                      "time": [
+                        "4",
+                        "1"
+                      ],
+                      "value": 600
+                    },
+                    {
+                      "in": [
+                        -0.6666666666666667,
+                        0
+                      ],
+                      "interpolation": "linear",
+                      "out": [
+                        0,
+                        0
+                      ],
+                      "time": [
+                        "6",
+                        "1"
+                      ],
+                      "value": 1400
+                    }
+                  ]
+                },
+                {
+                  "base": 550,
+                  "keys": []
+                }
+              ],
+              "id": "transform.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": [
+                    {
+                      "in": [
+                        0,
+                        0
+                      ],
+                      "interpolation": "linear",
+                      "out": [
+                        0,
+                        0
+                      ],
+                      "time": [
+                        "0",
+                        "1"
+                      ],
+                      "value": -12
+                    },
+                    {
+                      "in": [
+                        0,
+                        0
+                      ],
+                      "interpolation": "linear",
+                      "out": [
+                        0,
+                        0
+                      ],
+                      "time": [
+                        "12",
+                        "1"
+                      ],
+                      "value": 35
+                    }
+                  ]
+                }
+              ],
+              "id": "transform.rotation",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.scale",
+              "text": "",
+              "type": "vector"
+            }
+          ],
+          "parent": null,
+          "source": "3",
+          "start": [
+            "0",
+            "1"
+          ],
+          "visible": true,
+          "width": 560
+        },
+        {
+          "effects": [],
+          "height": 1080,
+          "id": "2",
+          "in": [
+            "0",
+            "1"
+          ],
+          "kind": "solid",
+          "locked": false,
+          "name": "Midnight background",
+          "out": [
+            "12",
+            "1"
+          ],
+          "parameters": [
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.enabled",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.inverted",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.mode",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.shape",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 100,
+                  "keys": []
+                },
+                {
+                  "base": 100,
+                  "keys": []
+                }
+              ],
+              "id": "mask.size",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0.062745101749897,
+                  "keys": []
+                },
+                {
+                  "base": 0.13725490868091583,
+                  "keys": []
+                },
+                {
+                  "base": 0.18039216101169586,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "source.color",
+              "text": "",
+              "type": "color"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "text.alignment",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [],
+              "id": "text.family",
+              "text": "Noto Sans",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 1.15,
+                  "keys": []
+                }
+              ],
+              "id": "text.leading",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 96,
+                  "keys": []
+                }
+              ],
+              "id": "text.size",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [],
+              "id": "text.source",
+              "text": "Title",
+              "type": "text"
+            },
+            {
+              "components": [],
+              "id": "text.style",
+              "text": "Regular",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.anchor",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.opacity",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.rotation",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.scale",
+              "text": "",
+              "type": "vector"
+            }
+          ],
+          "parent": null,
+          "source": "0",
+          "start": [
+            "0",
+            "1"
+          ],
+          "visible": true,
+          "width": 1920
+        }
+      ],
+      "name": "Curve controls",
+      "width": 1920
+    },
+    {
+      "duration": [
+        "12",
+        "1"
+      ],
+      "fps": [
+        "30",
+        "1"
+      ],
+      "height": 1080,
+      "id": "7",
+      "layers": [
+        {
+          "effects": [],
+          "height": 100,
+          "id": "6",
+          "in": [
+            "0",
+            "1"
+          ],
+          "kind": "null",
+          "locked": false,
+          "name": "Title parent",
+          "out": [
+            "12",
+            "1"
+          ],
+          "parameters": [
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.enabled",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.inverted",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.mode",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.shape",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 100,
+                  "keys": []
+                },
+                {
+                  "base": 100,
+                  "keys": []
+                }
+              ],
+              "id": "mask.size",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "source.color",
+              "text": "",
+              "type": "color"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "text.alignment",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [],
+              "id": "text.family",
+              "text": "Noto Sans",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 1.15,
+                  "keys": []
+                }
+              ],
+              "id": "text.leading",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 96,
+                  "keys": []
+                }
+              ],
+              "id": "text.size",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [],
+              "id": "text.source",
+              "text": "Title",
+              "type": "text"
+            },
+            {
+              "components": [],
+              "id": "text.style",
+              "text": "Regular",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.anchor",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.opacity",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": [
+                    {
+                      "in": [
+                        0,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        2,
+                        0
+                      ],
+                      "time": [
+                        "0",
+                        "1"
+                      ],
+                      "value": 0
+                    },
+                    {
+                      "in": [
+                        -2,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        2,
+                        0
+                      ],
+                      "time": [
+                        "6",
+                        "1"
+                      ],
+                      "value": -12
+                    },
+                    {
+                      "in": [
+                        -2,
+                        0
+                      ],
+                      "interpolation": "linear",
+                      "out": [
+                        0,
+                        0
+                      ],
+                      "time": [
+                        "12",
+                        "1"
+                      ],
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "id": "transform.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.rotation",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.scale",
+              "text": "",
+              "type": "vector"
+            }
+          ],
+          "parent": null,
+          "source": "0",
+          "start": [
+            "0",
+            "1"
+          ],
+          "visible": true,
+          "width": 100
+        },
+        {
+          "effects": [],
+          "height": 420,
+          "id": "5",
+          "in": [
+            "0",
+            "1"
+          ],
+          "kind": "text",
+          "locked": false,
+          "name": "Motion / Рух",
+          "out": [
+            "12",
+            "1"
+          ],
+          "parameters": [
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.enabled",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.inverted",
+              "text": "",
+              "type": "boolean"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.mode",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "mask.shape",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [
+                {
+                  "base": 100,
+                  "keys": []
+                },
+                {
+                  "base": 100,
+                  "keys": []
+                }
+              ],
+              "id": "mask.size",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0.9254902005195618,
+                  "keys": []
+                },
+                {
+                  "base": 0.9450980424880981,
+                  "keys": []
+                },
+                {
+                  "base": 0.9058823585510254,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "source.color",
+              "text": "",
+              "type": "color"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "text.alignment",
+              "text": "",
+              "type": "enum"
+            },
+            {
+              "components": [],
+              "id": "text.family",
+              "text": "Noto Sans",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 1.08,
+                  "keys": []
+                }
+              ],
+              "id": "text.leading",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 138,
+                  "keys": []
+                }
+              ],
+              "id": "text.size",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [],
+              "id": "text.source",
+              "text": "Motion\nРух",
+              "type": "text"
+            },
+            {
+              "components": [],
+              "id": "text.style",
+              "text": "Regular",
+              "type": "text"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                },
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.anchor",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": [
+                    {
+                      "in": [
+                        0,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        0.3333333333333333,
+                        0
+                      ],
+                      "time": [
+                        "0",
+                        "1"
+                      ],
+                      "value": 0
+                    },
+                    {
+                      "in": [
+                        -0.3333333333333333,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        3,
+                        0
+                      ],
+                      "time": [
+                        "1",
+                        "1"
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "in": [
+                        -3,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        0.6666666666666666,
+                        0
+                      ],
+                      "time": [
+                        "10",
+                        "1"
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "in": [
+                        -0.6666666666666666,
+                        0
+                      ],
+                      "interpolation": "linear",
+                      "out": [
+                        0,
+                        0
+                      ],
+                      "time": [
+                        "12",
+                        "1"
+                      ],
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "id": "transform.opacity",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 150,
+                  "keys": [
+                    {
+                      "in": [
+                        0,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        0.6666666666666666,
+                        0
+                      ],
+                      "time": [
+                        "0",
+                        "1"
+                      ],
+                      "value": 100
+                    },
+                    {
+                      "in": [
+                        -0.6666666666666666,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        2.6666666666666665,
+                        0
+                      ],
+                      "time": [
+                        "2",
+                        "1"
+                      ],
+                      "value": 180
+                    },
+                    {
+                      "in": [
+                        -2.6666666666666665,
+                        0
+                      ],
+                      "interpolation": "cubic",
+                      "out": [
+                        0.6666666666666666,
+                        0
+                      ],
+                      "time": [
+                        "10",
+                        "1"
+                      ],
+                      "value": 180
+                    },
+                    {
+                      "in": [
+                        -0.6666666666666666,
+                        0
+                      ],
+                      "interpolation": "linear",
+                      "out": [
+                        0,
+                        0
+                      ],
+                      "time": [
+                        "12",
+                        "1"
+                      ],
+                      "value": 210
+                    }
+                  ]
+                },
+                {
+                  "base": 335,
+                  "keys": []
+                }
+              ],
+              "id": "transform.position",
+              "text": "",
+              "type": "vector"
+            },
+            {
+              "components": [
+                {
+                  "base": 0,
+                  "keys": []
+                }
+              ],
+              "id": "transform.rotation",
+              "text": "",
+              "type": "scalar"
+            },
+            {
+              "components": [
+                {
+                  "base": 1,
+                  "keys": []
+                },
+                {
+                  "base": 1,
+                  "keys": []
+                }
+              ],
+              "id": "transform.scale",
+              "text": "",
+              "type": "vector"
+            }
+          ],
+          "parent": "6",
+          "source": "0",
+          "start": [
+            "0",
+            "1"
+          ],
+          "visible": true,
+          "width": 900
+        }
+      ],
+      "name": "Precomp 7",
+      "width": 1920
+    }
+  ],
+  "nextId": "9",
+  "schemaVersion": 2
+}

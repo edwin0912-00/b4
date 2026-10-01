@@ -1,0 +1,1398 @@
+{
+    "assets": [
+        {
+            "assumedSrgb": false,
+            "audioChannels": 0,
+            "audioRate": 0,
+            "duration": [
+                "0",
+                "1"
+            ],
+            "fps": [
+                "0",
+                "1"
+            ],
+            "hasAudio": false,
+            "height": 560,
+            "id": "3",
+            "kind": "image",
+            "path": "original-image.png",
+            "sha256": "24b350aaeead0e656de1e33d4271f969eef6fc7454dbfa66564946355d8a5e1c",
+            "variableRate": false,
+            "waveform": [
+            ],
+            "width": 560
+        }
+    ],
+    "compositions": [
+        {
+            "duration": [
+                "3",
+                "1"
+            ],
+            "fps": [
+                "30",
+                "1"
+            ],
+            "height": 1080,
+            "id": "1",
+            "layers": [
+                {
+                    "audioEnabled": true,
+                    "effects": [
+                    ],
+                    "height": 130,
+                    "id": "5",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "text",
+                    "locked": false,
+                    "motionBlur": false,
+                    "name": "Before Effects",
+                    "out": [
+                        "3",
+                        "1"
+                    ],
+                    "parameters": [
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "audio.levels",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.enabled",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.inverted",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.mode",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.shape",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.size",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0.9333333373069763,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0.9725490212440491,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0.9647058844566345,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "source.color",
+                            "text": "",
+                            "type": "color"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.alignment",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.family",
+                            "text": "Noto Sans",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1.15,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.leading",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 86,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.size",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.source",
+                            "text": "Before Effects",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.style",
+                            "text": "Regular",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.anchor",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.opacity",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 120,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 395,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.rotation",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.scale",
+                            "text": "",
+                            "type": "vector"
+                        }
+                    ],
+                    "parent": null,
+                    "source": "0",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "visible": true,
+                    "width": 790
+                },
+                {
+                    "audioEnabled": true,
+                    "effects": [
+                    ],
+                    "height": 95,
+                    "id": "6",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "text",
+                    "locked": false,
+                    "motionBlur": false,
+                    "name": "Color and motion",
+                    "out": [
+                        "3",
+                        "1"
+                    ],
+                    "parameters": [
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "audio.levels",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.enabled",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.inverted",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.mode",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.shape",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.size",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0.572549045085907,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0.7019608020782471,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0.7529411911964417,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "source.color",
+                            "text": "",
+                            "type": "color"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.alignment",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.family",
+                            "text": "Noto Sans",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1.15,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.leading",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 38,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.size",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.source",
+                            "text": "Color. Motion. Control.",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.style",
+                            "text": "Regular",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.anchor",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.opacity",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 125,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 525,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.rotation",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.scale",
+                            "text": "",
+                            "type": "vector"
+                        }
+                    ],
+                    "parent": null,
+                    "source": "0",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "visible": true,
+                    "width": 740
+                },
+                {
+                    "audioEnabled": true,
+                    "effects": [
+                        {
+                            "enabled": true,
+                            "id": "7",
+                            "name": "RGB Split",
+                            "parameters": [
+                                {
+                                    "components": [
+                                        {
+                                            "base": 1,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "rgb-split.amount",
+                                    "text": "",
+                                    "type": "scalar"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "base": -7,
+                                            "keys": [
+                                            ]
+                                        },
+                                        {
+                                            "base": 1,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "rgb-split.blue-offset",
+                                    "text": "",
+                                    "type": "vector"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "base": 0,
+                                            "keys": [
+                                            ]
+                                        },
+                                        {
+                                            "base": 0,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "rgb-split.green-offset",
+                                    "text": "",
+                                    "type": "vector"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "base": 7,
+                                            "keys": [
+                                            ]
+                                        },
+                                        {
+                                            "base": -1,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "rgb-split.red-offset",
+                                    "text": "",
+                                    "type": "vector"
+                                }
+                            ],
+                            "type": "motion.rgb-split"
+                        },
+                        {
+                            "enabled": true,
+                            "id": "8",
+                            "name": "Exposure",
+                            "parameters": [
+                                {
+                                    "components": [
+                                        {
+                                            "base": 1,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "exposure.amount",
+                                    "text": "",
+                                    "type": "scalar"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "base": 0.2,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "exposure.stops",
+                                    "text": "",
+                                    "type": "scalar"
+                                }
+                            ],
+                            "type": "motion.exposure"
+                        },
+                        {
+                            "enabled": true,
+                            "id": "9",
+                            "name": "Gaussian Blur",
+                            "parameters": [
+                                {
+                                    "components": [
+                                        {
+                                            "base": 1,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "gaussian-blur.amount",
+                                    "text": "",
+                                    "type": "scalar"
+                                },
+                                {
+                                    "components": [
+                                        {
+                                            "base": 0.35,
+                                            "keys": [
+                                            ]
+                                        }
+                                    ],
+                                    "id": "gaussian-blur.sigma",
+                                    "text": "",
+                                    "type": "scalar"
+                                }
+                            ],
+                            "type": "motion.gaussian-blur"
+                        }
+                    ],
+                    "height": 560,
+                    "id": "4",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "image",
+                    "locked": false,
+                    "motionBlur": true,
+                    "name": "Orbit",
+                    "out": [
+                        "3",
+                        "1"
+                    ],
+                    "parameters": [
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "audio.levels",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.enabled",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.inverted",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.mode",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.shape",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.size",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "source.color",
+                            "text": "",
+                            "type": "color"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.alignment",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.family",
+                            "text": "Noto Sans",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1.15,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.leading",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 96,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.size",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.source",
+                            "text": "Title",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.style",
+                            "text": "Regular",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 280,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 280,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.anchor",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.opacity",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                        {
+                                            "in": [
+                                                0,
+                                                0
+                                            ],
+                                            "interpolation": "linear",
+                                            "out": [
+                                                0,
+                                                0
+                                            ],
+                                            "time": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "value": 1170
+                                        },
+                                        {
+                                            "in": [
+                                                0,
+                                                0
+                                            ],
+                                            "interpolation": "linear",
+                                            "out": [
+                                                0,
+                                                0
+                                            ],
+                                            "time": [
+                                                "3",
+                                                "1"
+                                            ],
+                                            "value": 1430
+                                        }
+                                    ]
+                                },
+                                {
+                                    "base": 540,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                        {
+                                            "in": [
+                                                0,
+                                                0
+                                            ],
+                                            "interpolation": "linear",
+                                            "out": [
+                                                0,
+                                                0
+                                            ],
+                                            "time": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "value": -30
+                                        },
+                                        {
+                                            "in": [
+                                                0,
+                                                0
+                                            ],
+                                            "interpolation": "linear",
+                                            "out": [
+                                                0,
+                                                0
+                                            ],
+                                            "time": [
+                                                "3",
+                                                "1"
+                                            ],
+                                            "value": 150
+                                        }
+                                    ]
+                                }
+                            ],
+                            "id": "transform.rotation",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.scale",
+                            "text": "",
+                            "type": "vector"
+                        }
+                    ],
+                    "parent": null,
+                    "source": "3",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "visible": true,
+                    "width": 560
+                },
+                {
+                    "audioEnabled": true,
+                    "effects": [
+                    ],
+                    "height": 1080,
+                    "id": "2",
+                    "in": [
+                        "0",
+                        "1"
+                    ],
+                    "kind": "solid",
+                    "locked": false,
+                    "motionBlur": false,
+                    "name": "Midnight",
+                    "out": [
+                        "3",
+                        "1"
+                    ],
+                    "parameters": [
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "audio.levels",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.enabled",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.inverted",
+                            "text": "",
+                            "type": "boolean"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.mode",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.shape",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 100,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "mask.size",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0.062745101749897,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0.13333334028720856,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0.1764705926179886,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "source.color",
+                            "text": "",
+                            "type": "color"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.alignment",
+                            "text": "",
+                            "type": "enum"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.family",
+                            "text": "Noto Sans",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1.15,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.leading",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 96,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "text.size",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.source",
+                            "text": "Title",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                            ],
+                            "id": "text.style",
+                            "text": "Regular",
+                            "type": "text"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.anchor",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.opacity",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.position",
+                            "text": "",
+                            "type": "vector"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 0,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.rotation",
+                            "text": "",
+                            "type": "scalar"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                },
+                                {
+                                    "base": 1,
+                                    "keys": [
+                                    ]
+                                }
+                            ],
+                            "id": "transform.scale",
+                            "text": "",
+                            "type": "vector"
+                        }
+                    ],
+                    "parent": null,
+                    "source": "0",
+                    "start": [
+                        "0",
+                        "1"
+                    ],
+                    "visible": true,
+                    "width": 1920
+                }
+            ],
+            "motionBlurEnabled": true,
+            "motionBlurSamples": 16,
+            "name": "Color and Motion",
+            "shutterAngle": 180,
+            "shutterPhase": -90,
+            "width": 1920
+        }
+    ],
+    "nextId": "10",
+    "schemaVersion": 4
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "curve-schema2.json",
+    "sourceDelivery": "2026-09-28-keyframe-controls-v1/Example/Curve-controls.json",
+    "sha256": "6fdf07e4dc47d5a3ceb3375c7117797e04cf00e93203ff860e05612be70bd4a4",
+    "schemaVersion": 2
+  },
+  {
+    "file": "media-schema3.json",
+    "sourceDelivery": "2026-09-28-media-workflow-v1/Example/Media-project.json",
+    "sha256": "6ea5f77732f984f5eb4c1952c1960ec67df64b5801c63fdd853f33c4bd0025bc",
+    "schemaVersion": 3
+  }
+]

@@ -1,0 +1,9 @@
+build*/
+.omx/
+deliveries/
+.DS_Store
+__pycache__/
+.venv/
+.qt/
+aqtinstall.log
+*.py[cod]
