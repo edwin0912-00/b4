@@ -41,6 +41,7 @@ Install the pinned Qt 6.12.0 SDK and build tools using [Build](docs/public/BUILD
 ```sh
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_PREFIX_PATH="$PWD/.qt/6.12.0/macos" \
+  -DCMAKE_OSX_SYSROOT="$(xcrun --sdk macosx --show-sdk-path)" \
   -DCMAKE_OSX_ARCHITECTURES=arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=26.0
 cmake --build build --parallel 3
 ctest --test-dir build --output-on-failure
